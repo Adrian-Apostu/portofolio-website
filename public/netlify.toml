@@ -1,7 +1,7 @@
 [build]
-  base = "public" # Base directory where your project files are located
+  base = ""
   command = "npm run build"
-  publish = "public/dist" # Publish directory inside the base directory
+  publish = "public/dist"
 
 [[redirects]]
   from = "/*"
