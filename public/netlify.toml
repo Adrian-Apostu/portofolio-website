@@ -1,8 +1,8 @@
 [build]
+  base = "public" # Base directory where your project files are located
   command = "npm run build"
-  publish = "build"
+  publish = "public/dist" # Publish directory inside the base directory
 
-# Settings for redirects to handle single-page application routing
 [[redirects]]
   from = "/*"
   to = "/index.html"
