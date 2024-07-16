@@ -2,7 +2,7 @@ function About() {
   return (
     <div className="section" id="about">
       <h2>About Me</h2>
-      <p>With a foundation in mechanical engineering and a passion for web development, I have transitioned into the tech world by self-learning and hands-on experience. I participated in the Liga AC Labs project and completed a summer practice at Endava, where I honed my skills in backend development. My true expertise lies in building personal projects that demonstrate my commitment to high-quality software development.</p>
+      <p>With a foundation in mechanical engineering and a passion for web development, I have transitioned into the tech world through self-learning and hands-on experience. I participated in the Liga AC Labs project and completed a summer practice at Endava, where I honed my skills in backend development. Currently, I am also pursuing a master's degree in cybersecurity, which further complements my dedication to high-quality software development. My true expertise lies in building personal projects that demonstrate my commitment to excellence in the tech industry.</p>
       <h3>Skills</h3>
       <ul>
         <li>Proficient in Node.js and Express.js for backend development</li>
