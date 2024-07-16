@@ -76,7 +76,7 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 1rem 2rem;
+  padding: 1rem;
   background-color: var(--navbar-background);
   color: var(--primary-color);
   width: 100%;
@@ -84,6 +84,7 @@ nav {
   z-index: 1000;
   box-shadow: 0 4px 8px var(--box-shadow-color);
   border-radius: 8px;
+  box-sizing: border-box;
 }
 
 nav ul {
@@ -91,6 +92,8 @@ nav ul {
   display: flex;
   justify-content: center;
   width: fit-content;
+  padding: 0;
+  margin: 0;
 }
 
 nav ul li {
@@ -116,6 +119,7 @@ nav ul li a:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
+  box-sizing: border-box;
 }
 
 .header img {
@@ -143,6 +147,7 @@ nav ul li a:hover {
   width: 100%;
   max-width: 800px;
   padding: 2rem;
+  box-sizing: border-box;
 }
 
 .section {
@@ -154,6 +159,7 @@ nav ul li a:hover {
   width: 100%;
   max-width: 800px;
   text-align: center;
+  box-sizing: border-box;
 }
 
 .section h2 {
@@ -164,7 +170,7 @@ nav ul li a:hover {
 
 .section p, .section ul {
   text-align: left;
-  max-width: 600px;
+  max-width: 100%;
   margin: 0 auto;
 }
 
@@ -200,6 +206,7 @@ nav ul li a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  box-sizing: border-box;
 }
 
 .footer p {
