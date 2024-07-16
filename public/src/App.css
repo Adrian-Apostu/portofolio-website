@@ -1,3 +1,4 @@
+/* Base Styles */
 :root {
   --primary-color: #1b5c96;
   --secondary-color: #747bff;
@@ -93,6 +94,7 @@ nav {
   z-index: 1000;
   box-shadow: 0 4px 8px var(--box-shadow-color);
   margin: 0 auto;
+  box-sizing: border-box;
 }
 
 nav ul {
@@ -101,16 +103,18 @@ nav ul {
   justify-content: center;
   margin: 0;
   padding: 0;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 nav ul li {
-  margin: 0 1rem;
+  margin: 0 0.5rem; /* Adjusted margin */
 }
 
 nav ul li a {
   text-decoration: none;
   color: var(--primary-color);
-  font-size: 1.2rem;
+  font-size: 1rem; /* Adjusted font size */
   font-weight: bold;
   transition: color 0.3s ease;
 }
@@ -220,12 +224,13 @@ nav ul li a:hover {
 /* Responsive Styles */
 @media (max-width: 768px) {
   nav ul {
-    flex-direction: column;
+    flex-direction: row; /* Ensures horizontal alignment on mobile */
     align-items: center;
+    justify-content: center; /* Center items */
   }
 
   nav ul li {
-    margin: 0.5rem 0;
+    margin: 0 0.5rem; /* Adjusted margin for mobile */
   }
 
   .container {
